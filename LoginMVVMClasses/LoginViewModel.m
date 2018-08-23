@@ -86,7 +86,14 @@
             }
         }];
     }else{
-        NSLog(@"输入账号!!");
+		_sendBtnSignal = [RACSignal createSignal:^RACDisposable * _Nullable(id<RACSubscriber>  _Nonnull subscriber) {
+			NSLog(@"输入账号!!");
+
+			return [RACDisposable disposableWithBlock:^{
+				sleep(1);
+			}];
+		}];
+
     }
     
     return _sendBtnSignal;
