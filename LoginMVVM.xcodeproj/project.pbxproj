@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		9D23B94755C2FE69636EF572 /* libPods-LoginMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 363F516AAE16895E59D48E8C /* libPods-LoginMVVM.a */; };
+		B9086902212BF4770077448F /* 10.5 32-bit Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90868D2212BF4760077448F /* 10.5 32-bit Test-Info.plist */; };
+		B9086903212BF4770077448F /* 10.5 64-bit Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90868D3212BF4760077448F /* 10.5 64-bit Test-Info.plist */; };
+		B9086904212BF4770077448F /* BallardSwizzleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868D4212BF4760077448F /* BallardSwizzleTest.m */; };
+		B9086905212BF4770077448F /* 10.4 Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90868D9212BF4760077448F /* 10.4 Test-Info.plist */; };
+		B9086906212BF4770077448F /* AppleSwizzleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868DA212BF4760077448F /* AppleSwizzleTest.m */; };
+		B9086907212BF4770077448F /* 10.3 Test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90868DB212BF4760077448F /* 10.3 Test-Info.plist */; };
+		B9086908212BF4770077448F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868DE212BF4760077448F /* main.m */; };
+		B9086909212BF4770077448F /* JRSwizzleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868E2212BF4760077448F /* JRSwizzleTest.m */; };
+		B908690A212BF4770077448F /* ClassicSwizzleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868E3212BF4760077448F /* ClassicSwizzleTest.m */; };
+		B908690B212BF4770077448F /* MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868E4212BF4760077448F /* MethodSwizzle.m */; };
+		B908690C212BF4770077448F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B90868E5212BF4760077448F /* LICENSE */; };
+		B908690D212BF4770077448F /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = B90868E6212BF4760077448F /* README.markdown */; };
+		B908690E212BF4770077448F /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B90868E7212BF4760077448F /* JRSwizzle.m */; };
+		B908690F212BF4770077448F /* JRSwizzle.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B90868E8212BF4760077448F /* JRSwizzle.podspec */; };
 		B9AE6AA92029FE56006FBC9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE6AA82029FE56006FBC9D /* AppDelegate.m */; };
 		B9AE6AAC2029FE56006FBC9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE6AAB2029FE56006FBC9D /* ViewController.m */; };
 		B9AE6AAF2029FE56006FBC9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AE6AAD2029FE56006FBC9D /* Main.storyboard */; };
@@ -18,10 +32,91 @@
 		B9AE6AC2202B55BB006FBC9D /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AE6AC1202B55BB006FBC9D /* LoginViewModel.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B90868F2212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 792608A30CF3F88400A93D12;
+			remoteInfo = 10.3;
+		};
+		B90868F4212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 792607C30CF3F05800A93D12;
+			remoteInfo = 10.4;
+		};
+		B90868F6212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FA10486AA7600D96B5E;
+			remoteInfo = "10.5 32-bit";
+		};
+		B90868F8212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79F3DBEE0CF33E6000733703;
+			remoteInfo = "10.5 64-bit";
+		};
+		B90868FA212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7926093F0CF3F98E00A93D12;
+			remoteInfo = "10.3 Test";
+		};
+		B90868FC212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 792608550CF3F24400A93D12;
+			remoteInfo = "10.4 Test";
+		};
+		B90868FE212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79F3DC150CF33F5000733703;
+			remoteInfo = "10.5 32-bit Test";
+		};
+		B9086900212BF4760077448F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79F3DC2D0CF341EC00733703;
+			remoteInfo = "10.5 64-bit Test";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		363F516AAE16895E59D48E8C /* libPods-LoginMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LoginMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		542A688CB8AE9C8D222C325F /* Pods-LoginMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginMVVM/Pods-LoginMVVM.release.xcconfig"; sourceTree = "<group>"; };
 		66B0875A81E6DF330F40E7D1 /* Pods-LoginMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginMVVM/Pods-LoginMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		B90868D0212BF4760077448F /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		B90868D2212BF4760077448F /* 10.5 32-bit Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "10.5 32-bit Test-Info.plist"; sourceTree = "<group>"; };
+		B90868D3212BF4760077448F /* 10.5 64-bit Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "10.5 64-bit Test-Info.plist"; sourceTree = "<group>"; };
+		B90868D4212BF4760077448F /* BallardSwizzleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallardSwizzleTest.m; sourceTree = "<group>"; };
+		B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JRSwizzleTest.xcodeproj; sourceTree = "<group>"; };
+		B90868D8212BF4760077448F /* JRSwizzleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzleTest.h; sourceTree = "<group>"; };
+		B90868D9212BF4760077448F /* 10.4 Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "10.4 Test-Info.plist"; sourceTree = "<group>"; };
+		B90868DA212BF4760077448F /* AppleSwizzleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleSwizzleTest.m; sourceTree = "<group>"; };
+		B90868DB212BF4760077448F /* 10.3 Test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "10.3 Test-Info.plist"; sourceTree = "<group>"; };
+		B90868DC212BF4760077448F /* MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MethodSwizzle.h; sourceTree = "<group>"; };
+		B90868DD212BF4760077448F /* ClassicSwizzleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassicSwizzleTest.h; sourceTree = "<group>"; };
+		B90868DE212BF4760077448F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B90868DF212BF4760077448F /* JRSwizzleTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzleTest_Prefix.pch; sourceTree = "<group>"; };
+		B90868E0212BF4760077448F /* BallardSwizzleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallardSwizzleTest.h; sourceTree = "<group>"; };
+		B90868E1212BF4760077448F /* AppleSwizzleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleSwizzleTest.h; sourceTree = "<group>"; };
+		B90868E2212BF4760077448F /* JRSwizzleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzleTest.m; sourceTree = "<group>"; };
+		B90868E3212BF4760077448F /* ClassicSwizzleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassicSwizzleTest.m; sourceTree = "<group>"; };
+		B90868E4212BF4760077448F /* MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzle.m; sourceTree = "<group>"; };
+		B90868E5212BF4760077448F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B90868E6212BF4760077448F /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.markdown; sourceTree = "<group>"; };
+		B90868E7212BF4760077448F /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		B90868E8212BF4760077448F /* JRSwizzle.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JRSwizzle.podspec; sourceTree = "<group>"; };
 		B9AE6AA42029FE56006FBC9D /* LoginMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AE6AA72029FE56006FBC9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B9AE6AA82029FE56006FBC9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +153,58 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B90868CF212BF4760077448F /* jrswizzle-semver-1.x */ = {
+			isa = PBXGroup;
+			children = (
+				B90868D0212BF4760077448F /* JRSwizzle.h */,
+				B90868D1212BF4760077448F /* JRSwizzleTest */,
+				B90868E5212BF4760077448F /* LICENSE */,
+				B90868E6212BF4760077448F /* README.markdown */,
+				B90868E7212BF4760077448F /* JRSwizzle.m */,
+				B90868E8212BF4760077448F /* JRSwizzle.podspec */,
+			);
+			path = "jrswizzle-semver-1.x";
+			sourceTree = "<group>";
+		};
+		B90868D1212BF4760077448F /* JRSwizzleTest */ = {
+			isa = PBXGroup;
+			children = (
+				B90868D2212BF4760077448F /* 10.5 32-bit Test-Info.plist */,
+				B90868D3212BF4760077448F /* 10.5 64-bit Test-Info.plist */,
+				B90868D4212BF4760077448F /* BallardSwizzleTest.m */,
+				B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */,
+				B90868D8212BF4760077448F /* JRSwizzleTest.h */,
+				B90868D9212BF4760077448F /* 10.4 Test-Info.plist */,
+				B90868DA212BF4760077448F /* AppleSwizzleTest.m */,
+				B90868DB212BF4760077448F /* 10.3 Test-Info.plist */,
+				B90868DC212BF4760077448F /* MethodSwizzle.h */,
+				B90868DD212BF4760077448F /* ClassicSwizzleTest.h */,
+				B90868DE212BF4760077448F /* main.m */,
+				B90868DF212BF4760077448F /* JRSwizzleTest_Prefix.pch */,
+				B90868E0212BF4760077448F /* BallardSwizzleTest.h */,
+				B90868E1212BF4760077448F /* AppleSwizzleTest.h */,
+				B90868E2212BF4760077448F /* JRSwizzleTest.m */,
+				B90868E3212BF4760077448F /* ClassicSwizzleTest.m */,
+				B90868E4212BF4760077448F /* MethodSwizzle.m */,
+			);
+			path = JRSwizzleTest;
+			sourceTree = "<group>";
+		};
+		B90868D6212BF4760077448F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B90868F3212BF4760077448F /* JRSwizzleTest_1030 */,
+				B90868F5212BF4760077448F /* JRSwizzleTest_1040 */,
+				B90868F7212BF4760077448F /* JRSwizzleTest_1050_32 */,
+				B90868F9212BF4760077448F /* JRSwizzleTest_1050_64 */,
+				B90868FB212BF4760077448F /* 10.3 Test.octest */,
+				B90868FD212BF4760077448F /* 10.4 Test.octest */,
+				B90868FF212BF4760077448F /* 10.5 32-bit Test.octest */,
+				B9086901212BF4760077448F /* 10.5 64-bit Test.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		B9AE6A9B2029FE56006FBC9D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +230,7 @@
 				B9AE6AA82029FE56006FBC9D /* AppDelegate.m */,
 				B9AE6AAA2029FE56006FBC9D /* ViewController.h */,
 				B9AE6AAB2029FE56006FBC9D /* ViewController.m */,
+				B90868CF212BF4760077448F /* jrswizzle-semver-1.x */,
 				B9AE6ABD2029FEA5006FBC9D /* LoginViewController.h */,
 				B9AE6ABE2029FEA5006FBC9D /* LoginViewController.m */,
 				B9AE6AC0202B55BB006FBC9D /* LoginViewModel.h */,
@@ -152,6 +300,12 @@
 			mainGroup = B9AE6A9B2029FE56006FBC9D;
 			productRefGroup = B9AE6AA52029FE56006FBC9D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B90868D6212BF4760077448F /* Products */;
+					ProjectRef = B90868D5212BF4760077448F /* JRSwizzleTest.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				B9AE6AA32029FE56006FBC9D /* LoginMVVM */,
@@ -159,14 +313,80 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		B90868F3212BF4760077448F /* JRSwizzleTest_1030 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = JRSwizzleTest_1030;
+			remoteRef = B90868F2212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868F5212BF4760077448F /* JRSwizzleTest_1040 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = JRSwizzleTest_1040;
+			remoteRef = B90868F4212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868F7212BF4760077448F /* JRSwizzleTest_1050_32 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = JRSwizzleTest_1050_32;
+			remoteRef = B90868F6212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868F9212BF4760077448F /* JRSwizzleTest_1050_64 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = JRSwizzleTest_1050_64;
+			remoteRef = B90868F8212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868FB212BF4760077448F /* 10.3 Test.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "10.3 Test.octest";
+			remoteRef = B90868FA212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868FD212BF4760077448F /* 10.4 Test.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "10.4 Test.octest";
+			remoteRef = B90868FC212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B90868FF212BF4760077448F /* 10.5 32-bit Test.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "10.5 32-bit Test.octest";
+			remoteRef = B90868FE212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B9086901212BF4760077448F /* 10.5 64-bit Test.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "10.5 64-bit Test.octest";
+			remoteRef = B9086900212BF4760077448F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		B9AE6AA22029FE56006FBC9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9086905212BF4770077448F /* 10.4 Test-Info.plist in Resources */,
+				B908690F212BF4770077448F /* JRSwizzle.podspec in Resources */,
+				B9086903212BF4770077448F /* 10.5 64-bit Test-Info.plist in Resources */,
+				B908690C212BF4770077448F /* LICENSE in Resources */,
 				B9AE6AB42029FE56006FBC9D /* LaunchScreen.storyboard in Resources */,
 				B9AE6AB12029FE56006FBC9D /* Assets.xcassets in Resources */,
+				B908690D212BF4770077448F /* README.markdown in Resources */,
+				B9086907212BF4770077448F /* 10.3 Test-Info.plist in Resources */,
 				B9AE6AAF2029FE56006FBC9D /* Main.storyboard in Resources */,
+				B9086902212BF4770077448F /* 10.5 32-bit Test-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,9 +419,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9AE6ABF2029FEA5006FBC9D /* LoginViewController.m in Sources */,
+				B908690A212BF4770077448F /* ClassicSwizzleTest.m in Sources */,
+				B9086906212BF4770077448F /* AppleSwizzleTest.m in Sources */,
+				B9086904212BF4770077448F /* BallardSwizzleTest.m in Sources */,
 				B9AE6AAC2029FE56006FBC9D /* ViewController.m in Sources */,
+				B9086909212BF4770077448F /* JRSwizzleTest.m in Sources */,
 				B9AE6AB72029FE56006FBC9D /* main.m in Sources */,
 				B9AE6AC2202B55BB006FBC9D /* LoginViewModel.m in Sources */,
+				B908690B212BF4770077448F /* MethodSwizzle.m in Sources */,
+				B9086908212BF4770077448F /* main.m in Sources */,
+				B908690E212BF4770077448F /* JRSwizzle.m in Sources */,
 				B9AE6AA92029FE56006FBC9D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
